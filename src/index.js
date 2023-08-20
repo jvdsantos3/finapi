@@ -31,7 +31,7 @@ function getBalance(statement) {
     }
   }, 0)
 
-  return balance;
+  return response.send(balance);
 }
 
 app.post('/account', (request, response) => {
